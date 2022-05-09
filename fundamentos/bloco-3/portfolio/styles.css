@@ -1,0 +1,349 @@
+#nav {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    position:relative;
+    left: 5.9vw;
+    letter-spacing: 0.055em;
+    word-spacing: 1.5vw;
+
+}
+@media only screen and (max-width:600px){
+    #nav{
+        font-size: 12px;
+    }
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+
+}
+a:hover {
+    color: #2FC18C;
+    text-decoration: none;
+}
+
+
+
+#Bonito{
+    position:absolute;
+    width: 35vw;
+  
+
+}
+@media only screen and (max-width:600px){
+    #Bonito{
+        width: 76vw;
+        position: absolute;
+        left: 12%;
+    }
+}
+
+#dev{    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6vw;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 30vw;
+    left: 8%;
+    width: 18vw;
+    text-align: center;
+}
+@media only screen and (max-width:600px){
+    #dev{
+        position: relative;
+        font-size: 0vw;
+        text-align: center;
+        top:90vw;
+        left: 13.4vw;
+        right: 13.4VW;
+        margin: 10px;
+    }
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black ;
+    position: absolute;
+}
+@media only screen and (max-width:600px){
+    body{
+        position: relative;
+        width: 394px;
+    }
+}
+
+#content{
+    position: relative;
+    width: 50vw;
+    left:38%;
+    top: 0vw;
+}
+@media only screen and (max-width:600px){
+    #content{
+        position: relative;
+        left: 0%;
+        width: 100%
+    }
+}
+
+#nome{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 72px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.27em;
+    color: #2FC18C;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+}
+@media only screen and (max-width:600px){
+    #nome{
+        position: absolute;
+        top: 52vw;
+        font-size: 6vw;
+        width: 100%;
+        line-height: 10vw;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 80%;
+    }
+}
+
+#ABOUT{
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7vw;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.27em;
+    color: #2FC18C;
+    margin: 0px;
+}
+@media only screen and (max-width:600px){
+    #ABOUT{
+        position: relative;
+        top: 93vw;
+        font-size: 6vw;
+        width: 100%;
+        line-height: 10vw;
+        text-align: center;
+    }
+}
+
+
+#quem {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 0.27em;
+    position: relative ;
+    color: #FFFFFF;
+    opacity: 80%;
+}
+@media only screen and (max-width:600px){
+    #quem{
+        position: absolute;
+        top: 98vw;
+        font-size: 3.5vw;
+        width: 70vw;
+        line-height: 20px;
+        text-align: justify;
+        left: 15vw;
+        right: 15vw;
+    }
+}
+#meio{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+
+}
+@media only screen and (max-width:600px){
+    #meio{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        top:168vw;
+    }
+}
+#HABILIDADES{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 48px;
+    letter-spacing: 0.27em;
+    color: #2FC18C;
+    text-align: center;
+    margin-top: 0px;
+
+}
+@media only screen and (max-width:600px){
+    #HABILIDADES{
+        font-size: 6vw;
+    }
+}
+#skills{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 30px;
+    letter-spacing: 0.27em;
+    justify-content: center;
+
+    color: #FFFFFF;
+    opacity: 80%;
+}
+@media only screen and (max-width:600px){
+    #skills{
+        font-size: 3.5vw;
+    }
+}
+
+#STACKS{
+    bottom:100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 48px;
+    text-align: center;
+    justify-content:left;
+    letter-spacing: 0.27em;
+    color: #2FC18C;
+    margin-top: 0px;
+ 
+}
+@media only screen and (max-width:600px){
+    #STACKS{
+        font-size: 6vw;
+    }
+}
+#stackss{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 30px;
+    letter-spacing: 0.27em;
+    justify-content: center;
+
+    color: #FFFFFF;
+    opacity: 80%;
+}
+@media only screen and (max-width:600px){
+    #stackss{
+        font-size: 3.5vw;
+    }
+}
+#PROJECTS{
+    bottom:100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 48px;
+    text-align: center;
+    justify-content:left;
+    letter-spacing: 0.27em;
+    color: #2FC18C;
+    margin-top: 0px;
+
+
+}
+@media only screen and (max-width:600px){
+    #PROJECTS{
+        font-size: 6vw;
+    }
+}
+#links{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 30px;
+    letter-spacing: 0.27em;
+    justify-content:space-between;
+    color: #FFFFFF;
+    opacity: 80%;
+}
+@media only screen and (max-width:600px){
+    #links{
+        font-size: 3.5vw;
+    }
+}
+
+#box{
+    width: 15vw;
+    margin-bottom: 5vw;
+    border: 1px solid #2FC18C;
+}
+@media only screen and (max-width:600px) {
+    #box{
+        width: 70vw;
+        justify-content:center;
+
+ 
+}}
+
+
+#box2{
+    width: 15vw;
+    margin-bottom: 5vw;
+    border: 1px solid #2FC18C;
+}
+@media only screen and (max-width:600px) {
+    #box2{
+        width: 70vw;
+        justify-content:center;
+ 
+}}
+
+#box3{
+    width: 15vw;
+    margin-bottom: 5vw;
+    border: 1px solid #2FC18C;
+}
+@media only screen and (max-width:600px) {
+    #box3{
+        width: 70vw;
+        justify-content:center;
+}}
+
+#trybe{
+    position:absolute;
+    top:34vw;
+    left: 13%;
+    width: 10vw;
+    height: 30vh;
+}
+@media only screen and (max-width:600px) {
+    #trybe{
+    position:absolute;
+    top:73vw;
+    left: 40%;
+    width: 20vw;
+    height: 30vh;   
+}}
