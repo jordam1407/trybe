@@ -1,0 +1,25 @@
+div:hover{
+    border: 5px solid black;
+    color: aqua;
+}
+
+#div1{
+    color: rgb(12, 12, 11);
+    font-style: italic;
+}
+#div2{
+color: aquamarine;
+}
+#div3{
+    font-size: x-large;
+    font-style: italic;
+color: blue;
+}
+#div4{
+color: brown;
+
+}
+#div5{
+color: rgb(255, 127, 127);
+font-style: italic;
+}

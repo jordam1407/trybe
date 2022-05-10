@@ -1,0 +1,22 @@
+body{
+
+}
+h1, p{
+
+    text-align: center;
+
+}
+ol{
+    list-style: none;
+
+}
+li:hover{
+    background-color: blueviolet;
+    font-size: 20px;
+    
+}
+li:active{
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
